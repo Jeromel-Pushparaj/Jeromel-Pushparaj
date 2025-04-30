@@ -1,15 +1,10 @@
 <?php
-// Example: Update README with current date
-$readme = 'README.md';
-$content = file_get_contents($readme);
+date_default_timezone_set('Asia/Kolkata'); // Set your timezone
+$readme = file_get_contents("README.md");
 
-$pattern = '/Last updated: .*?(\n|$)/';
-$replacement = 'Last updated: ' . date('Y-m-d H:i:s') . "\n";
+$currentTime = date("Y-m-d H:i:s");
+$updated = preg_replace('/{{time}}/', $currentTime, $readme);
 
-if (preg_match($pattern, $content)) {
-    $newContent = preg_replace($pattern, $replacement, $content);
-} else {
-    $newContent = $content . "\n" . $replacement;
-}
+file_put_contents("README.md", $updated);
+?>
 
-file_put_contents($readme, $newContent);
