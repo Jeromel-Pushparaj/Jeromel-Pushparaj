@@ -17,14 +17,13 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
-          
-      - name: Run PHP script
-        run: php update-readme.php
         
       - name: 🎏 Fetch repo
         uses: actions/checkout@master
         with:
           fetch-depth: 1
+      - name: Run PHP script
+        run: php update-readme.php
 
       - name: 🚀 Deploy
         run: |
