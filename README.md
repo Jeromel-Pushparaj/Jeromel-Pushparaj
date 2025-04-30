@@ -48,7 +48,7 @@ $jeromel = new Developer(
 $jeromel->introduce();
 
 ```
-<!--- Last updated: 2025-04-30 7:45:00 --->
+<!--- _Last updated on: {{time}}_ --->
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/680/0*7Q3yvSIv_t0ioJ-Z.gif"/>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat" alt="Jeromel Pushparaj" /> </p>
 
