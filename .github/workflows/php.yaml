@@ -28,8 +28,8 @@ jobs:
 
       - name: 🚀 Deploy
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin  # 👈 Prevents non-fast-forward error
           git add .
           git commit -am "[Automatic] Updated ReadMe.md"
