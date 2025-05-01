@@ -49,11 +49,13 @@ $jeromel->introduce();
 
 ```
 <!--- _Last updated on: **<time>2025-05-01 13:28:43</time>**_ --->
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/680/0*7Q3yvSIv_t0ioJ-Z.gif"/>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat" alt="Jeromel Pushparaj" /> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Jeromel-Pushparaj&show_icons=true&locale=en&layout=compact" alt="jeormelpushapraj" /></p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj">
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Jeromel-Pushparaj&show_icons=true&locale=en" alt="Jeromel Pushparaj" /></p>
+<h1 align="center"> </h1>
+<hr>
+<img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat&theme=github_dark" alt="Jeromel Pushparaj" /> 
+<p align="center"> 
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj&show_icons=true&locale=en&theme=github_dark" alt="Jeromel Pushparaj" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Jeromel-Pushparaj&show_icons=true&locale=en&theme=github_dark" alt="Jeromel Pushparaj" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Jeromel-Pushparaj&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="jeormelpushapraj" />
+</p>
 
 
