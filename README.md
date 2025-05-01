@@ -53,7 +53,7 @@ $jeromel->introduce();
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat" alt="Jeromel Pushparaj" /> </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Jeromel-Pushparaj&show_icons=true&locale=en&layout=compact" alt="jeormelpushapraj" /></p>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj">
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Jeromel-Pushparaj&show_icons=true&locale=en" alt="Jeromel Pushparaj" /></p>
 
 
