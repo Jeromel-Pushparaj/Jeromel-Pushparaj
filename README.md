@@ -61,7 +61,7 @@ $jeromel->introduce();
 </p>
 <hr>
 <p align="center"><i align="center">
- updated by Modern PHP <time>1 May 2025</time> Try it you may fall in love like I did..
+ updated by Modern PHP <time>1 May 2025</time>. Try it—you may fall in love like I did with its vibes.
  </i>
  </p>
 
