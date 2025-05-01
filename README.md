@@ -48,7 +48,7 @@ $jeromel = new Developer(
 $jeromel->introduce();
 
 ```
-<!--- _Last updated on: **<time>2025-05-01 13:28:43</time>**_ --->
+<!--- _Last updated on: **<time>1 May 2025</time>**_ --->
 <h1 align="center"> </h1>
 <hr>
    <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat&theme=github_dark" alt="Jeromel Pushparaj" /> 
@@ -60,6 +60,6 @@ $jeromel->introduce();
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj&theme=github_dark">
 </p>
 <i align="center">
- updated by Modern PHP <time>2025-05-01 13:28:43</time> Try it you may fall in love like I did..
+ updated by Modern PHP <time>1 May 2025</time> Try it you may fall in love like I did..
  </i>
 
