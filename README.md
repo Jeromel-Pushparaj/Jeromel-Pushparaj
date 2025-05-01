@@ -59,7 +59,9 @@ $jeromel->introduce();
     <img src="https://github-readme-stats.vercel.app/api?username=Jeromel-Pushparaj&show_icons=true&locale=en&theme=github_dark" alt="Jeromel Pushparaj" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj&theme=github_dark">
 </p>
-<i align="center">
+<hr>
+<p align="center"><i align="center">
  updated by Modern PHP <time>1 May 2025</time> Try it you may fall in love like I did..
  </i>
+ </p>
 
