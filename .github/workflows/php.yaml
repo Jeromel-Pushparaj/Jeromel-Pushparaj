@@ -2,7 +2,7 @@ name: Update README Daily
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every day at 00:00 UTC
+    - cron: '*/10 * * * *' # Every day at 00:00 UTC
   workflow_dispatch: # Allow manual runs too
 
 jobs:
@@ -24,10 +24,12 @@ jobs:
         run: php update-readme.php
 
       - name: 🚀 Update README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.SPAT }}
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-            git config user.name "$GITHUB_ACTOR"
-            git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add .
             git commit -am "[Automatic] Updated Stats ReadMe.md"
             git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
