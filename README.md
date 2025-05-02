@@ -48,7 +48,6 @@ $jeromel = new Developer(
 $jeromel->introduce();
 
 ```
-<!--- _Last updated on: **<time>2 May 2025<!---02-05-2025 10:05:50---></time>**_ --->
 <h1 align="center"> </h1>
 <hr>
    <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat&theme=github_dark" alt="Jeromel Pushparaj" /> 
@@ -57,7 +56,7 @@ $jeromel->introduce();
        </p>
 <p align="center"> 
     <img src="https://github-readme-stats.vercel.app/api?username=Jeromel-Pushparaj&show_icons=true&locale=en&theme=github_dark" alt="Jeromel Pushparaj" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj&theme=github_dark">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jeromel-Pushparaj&theme=github-dark-blue">
 </p>
 <hr>
 <p align="center"><i align="center">
