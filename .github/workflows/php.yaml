@@ -29,7 +29,7 @@ jobs:
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name "Jeromel-Pushparaj"
-            git config user.email "jeromal03@gmail.com"
+            git config user.email "Jeromel-Pushparaj@users.noreply.github.com"
             git add .
             git commit -am "[Automatic] Updated Stats ReadMe.md"
             git push --all -f https://${PAT}@github.com/${GITHUB_REPOSITORY}.git
