@@ -14,6 +14,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
+          
         
       - name: 🎏 Fetch repo
         uses: actions/checkout@master
@@ -22,12 +23,12 @@ jobs:
       - name: Run PHP script
         run: php update-readme.php
 
-      - name: 🚀 Deploy
+      - name: 🚀 Update README.md
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin  # 👈 Prevents non-fast-forward error
-          git add .
-          git commit -am "[Automatic] Updated ReadMe.md"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
-
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name "$GITHUB_ACTOR"
+            git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+            git add .
+            git commit -am "[Automatic] Updated Stats ReadMe.md"
+            git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          fi
