@@ -1,8 +1,8 @@
-name: Update README Daily
+name: Update README Every 10 Minutes
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours at UTC
+    - cron: '0 */6 * * *' # Runs every 10 minutes
   workflow_dispatch: # Allow manual runs too
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
-
+          
       - name: 🎏 Fetch repo
         uses: actions/checkout@v3
         with:
@@ -23,35 +23,15 @@ jobs:
       - name: Run PHP script
         run: php update-readme.php
 
-      - name: 🚀 Create a new branch and commit changes
+      - name: 🚀 Update README.md
+        env:
+          PAT: ${{ secrets.SPAT }}
         run: |
-          git config user.name "Jeromel Pushparaj"
-          git config user.email "jeromal03@gmail.com"
-          
-          # Create a new branch for changes
-          git checkout -b update-readme-$(date +%Y-%m-%d-%H-%M-%S)
-          
-          # Stage and commit changes
-          git add .
-          git commit -am "[Automatic] Updated Stats ReadMe.md"
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name "Jeromel-Pushparaj"
+            git config user.email "jeromal03@gmail.com"
+            git add .
+            git commit -am "[Automatic] Updated Stats ReadMe.md"
+            git push --all https://${PAT}@github.com/${GITHUB_REPOSITORY}.git
+          fi
 
-          # Push the new branch to the repository
-          git push --set-upstream origin update-readme-$(date +%Y-%m-%d-%H-%M-%S)
-
-      - name: 📥 Create Pull Request
-        id: pr
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.SPAT }}
-          base: main    # Target branch to merge into (usually 'main' or 'master')
-          head: update-readme-$(date +%Y-%m-%d-%H-%M-%S)  # Branch to create the PR from
-          title: "Automated README Update"
-          body: "This is an automatic update of the README file generated every 6 hours."
-          draft: false  # Set to true if you want the PR to be a draft
-
-      - name: 🚀 Automatically Merge the Pull Request
-        uses: peter-evans/merge-pull-request@v4
-        with:
-          token: ${{ secrets.SPAT }}
-          pull-request: ${{ steps.pr.outputs.pull-request-url }}
-          merge-method: squash  # You can use 'merge', 'squash', or 'rebase'
