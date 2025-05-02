@@ -1,4 +1,4 @@
-name: Update README Every 10 Minutes
+name: Update README
 
 on:
   schedule:
@@ -14,7 +14,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
-          
+
       - name: 🎏 Fetch repo
         uses: actions/checkout@v3
         with:
@@ -23,15 +23,15 @@ jobs:
       - name: Run PHP script
         run: php update-readme.php
 
-      - name: 🚀 Update README.md
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[Automatic] Updated Stats ReadMe.md"
+          commit_user_name: "Jeromel Pushparaj"
+          commit_user_email: "jeromal03@gmail.com"
+          branch: main
+          file_pattern: "README.md"
         env:
-          PAT: ${{ secrets.SPAT }}
-        run: |
-          if [[ "$(git status --porcelain)" != "" ]]; then
-            git config user.name "Jeromel-Pushparaj"
-            git config user.email "jeromal03@gmail.com"
-            git add .
-            git commit -am "[Automatic] Updated Stats ReadMe.md"
-            git push --all https://${PAT}@github.com/${GITHUB_REPOSITORY}.git
-          fi
+          GITHUB_TOKEN: ${{ secrets.SPAT }}
+
 
