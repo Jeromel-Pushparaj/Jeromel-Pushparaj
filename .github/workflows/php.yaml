@@ -50,7 +50,7 @@ jobs:
           draft: false  # Set to true if you want the PR to be a draft
 
       - name: 🚀 Automatically Merge the Pull Request
-        uses: peter-evans/merge-pull-request@v3
+        uses: peter-evans/merge-pull-request@v4
         with:
           token: ${{ secrets.SPAT }}
           pull-request: ${{ steps.pr.outputs.pull-request-url }}
