@@ -25,12 +25,12 @@ jobs:
 
       - name: 🚀 Update README.md
         env:
-          GITHUB_TOKEN: ${{ secrets.SPAT }}
+          PAT: ${{ secrets.SPAT }}
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name "Jeromel-Pushparaj"
             git config user.email "jeromal03@gmail.com"
             git add .
             git commit -am "[Automatic] Updated Stats ReadMe.md"
-            git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+            git push --all -f https://${{ PAT }}@github.com/${GITHUB_REPOSITORY}.git
           fi
