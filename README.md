@@ -60,7 +60,7 @@ $jeromel->introduce();
 </p>
 <hr>
 <p align="center"><i align="center">
- updated by Modern PHP <time>18 May 2025<!---18-05-2025 07:05:40---></time>. Try it—you may fall in love like I did with its vibes.
+ Programming is art, that art tells lot about me by my repos, <time>18 May 2025<!---18-05-2025 07:05:40---></time>.
  </i>
  </p>
 
