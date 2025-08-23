@@ -3,6 +3,7 @@
 <h1 align="center">Hi 👋, I'm Jeromel Pushparaj</h1>
 <h3 align="center">A multidisciplinary Full-Stack developer from Tamil Nadu India</h3>
 <p align="center">"I write code with responsibility, honesty, and care — always mindful of its impact on users, clients, and my team."</p>
+
 ```php
 <?php
 
