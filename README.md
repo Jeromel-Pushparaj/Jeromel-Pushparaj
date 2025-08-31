@@ -61,7 +61,7 @@ $jeromel->introduce();
 </p>
 <hr>
 <p align="center"><i align="center">
- Programming is art, that art tells lot about me by my repos, <time>31 August 2025<!---31-08-2025 18:08:14---></time>.
+ Programming is art, that art tells lot about me by my repos, <time>1 September 2025<!---01-09-2025 00:09:24---></time>.
  </i>
  </p>
 
