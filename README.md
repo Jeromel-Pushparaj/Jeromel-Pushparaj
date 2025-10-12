@@ -52,7 +52,7 @@ $jeromel->introduce();
 <h1 align="center"> </h1>
 <hr>
    <!-- <img src="https://komarev.com/ghpvc/?username=Jeromel-Pushparaj&label=Profile%20views&color=0e75b6&style=flat&theme=github_dark" alt="Jeromel Pushparaj" />  -->
-   <p align="center">.
+   <p align="center">
    <!-- <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Jeromel-Pushparaj&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="jeormelpushapraj" />  -->
        </p>
 <p align="center"> 
