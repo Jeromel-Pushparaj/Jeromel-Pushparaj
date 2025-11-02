@@ -1,7 +1,7 @@
 
 
 <h1 align="center">Hi 👋, I'm Jeromel Pushparaj</h1>
-<h3 align="center">A multidisciplinary Full-Stack developer from Tamil Nadu India</h3>
+<h3 align="center">A multidisciplinary Software Developer Engineer from Tamil Nadu India</h3>
 <p align="center">"I write code with responsibility, honesty, and care — always mindful of its impact on users, clients, and my team."</p>
 
 ```php
@@ -43,7 +43,7 @@ $jeromel = new Developer(
     skills: ['PHP 8', 'MySQL', 'java', 'Reactjs', 'Go', 'JavaScript', 'HTML', 'Tailwind CSS', 'Laravel', 'Linux', 'MongoDB'],
     knownStacksAndFrameworks: ['MERN', 'LAMP', 'Spring-boot'],
     hobbies: ['Learn CyberSecurity', 'Experimenting with IoT', 'Experimenting with Low Level stuff'],
-    importantMessage: "I am not subjected to these technologies - I explore everything if I have to",
+    importantMessage: "I am not limited to specific technologies; my Computer Science background allows me to explore, understand, and adapt to any language or system I need to use.",
     loveNote: ['Jesus is the only way', 'John: 3:16']
 );
 
