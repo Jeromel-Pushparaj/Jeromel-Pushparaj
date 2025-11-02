@@ -39,10 +39,11 @@ TEXT;
 
 $jeromel = new Developer(
     name: 'Jeromel Pushparaj',
-    role: 'Full Stack Developer',
-    skills: ['PHP 8', 'MySQL', 'JavaScript', 'HTML', 'Tailwind CSS', 'Laravel', 'Linux', 'MongoDB'],
-    knownStacks: ['MERN', 'LAMP'],
-    hobbies: ['Learn CyberSecurity', 'Experimenting with IoT', 'Learning about personal financial'],
+    role: 'Software Developer Engineer',
+    skills: ['PHP 8', 'MySQL', 'java', 'Reactjs', 'Go', 'JavaScript', 'HTML', 'Tailwind CSS', 'Laravel', 'Linux', 'MongoDB'],
+    knownStacksAndFrameworks: ['MERN', 'LAMP', 'Spring-boot'],
+    hobbies: ['Learn CyberSecurity', 'Experimenting with IoT', 'Experimenting with Low Level stuff'],
+    importantMessage: "I am not subjected to these technologies - I explore everything if I have to",
     loveNote: ['Jesus is the only way', 'John: 3:16']
 );
 
